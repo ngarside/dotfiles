@@ -114,5 +114,8 @@
 	"workbench.startupEditor": "none",
 
 	// Increase tree indent in the explorer.
-	"workbench.tree.indent": 20
+	"workbench.tree.indent": 20,
+
+	// Enable the Zig language server.
+	"zig.zls.enabled": "on"
 }
