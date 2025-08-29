@@ -10,6 +10,9 @@
 	// Automatically close the console when the debug session ends.
 	"debug.console.closeOnEnd": false,
 
+	// Run dev containers under Podman instead of Docker.
+	"dev.containers.dockerPath": "podman",
+
 	// Disable code folding.
 	"editor.folding": false,
 
