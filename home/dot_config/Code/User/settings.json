@@ -58,6 +58,9 @@
 		"*.yamllint": "yaml"
 	},
 
+	// Automatically save modified files.
+	"files.autoSave": "afterDelay",
+
 	// When opening new tabs, default to the language of the previously open tab.
 	"files.defaultLanguage": "${activeEditorLanguage}",
 
