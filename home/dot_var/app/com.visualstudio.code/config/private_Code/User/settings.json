@@ -95,6 +95,9 @@
 	// Update paths to imported modules when moving JavaScript and TypeScript files.
 	"typescript.updateImportsOnFileMove.enabled": "always",
 
+	// Disable update checks (rely on the system's package manager).
+	"update.mode": "none",
+
 	// Automatically switch between light and dark themes based on the operating system's appearance setting.
 	"window.autoDetectColorScheme": true,
 
