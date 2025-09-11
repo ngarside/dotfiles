@@ -22,6 +22,9 @@
 	// Reduce default font size.
 	"editor.fontSize": 12.5,
 
+	// Only show inlay hints when keys are held down.
+	"editor.inlayHints.enabled": "offUnlessPressed",
+
 	// Don't insert spaces when pressing tab.
 	"editor.insertSpaces": false,
 
