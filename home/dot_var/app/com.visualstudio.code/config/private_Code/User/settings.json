@@ -92,6 +92,17 @@
 	// Use an I-beam style cursor in the terminal.
 	"terminal.integrated.cursorStyle": "line",
 
+	// Rename the default terminal to 'Container'.
+	"terminal.integrated.defaultProfile.linux": "Container",
+	"terminal.integrated.profiles.linux": {
+		"bash": null,
+		"Container": {
+			"icon": "terminal-bash",
+			"overrideName": true,
+			"path": "/usr/bin/bash"
+		}
+	},
+
 	// Disable JavaScript and TypeScript survey prompts.
 	"typescript.surveys.enabled": false,
 
